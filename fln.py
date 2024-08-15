@@ -1,8 +1,8 @@
 li = ['usman', 'zeshan', 'bazar', 'wahab', 'tayyeb']
-for name in li:  
-    if name == 'wahab':  
+for n in li:  
+    if n == 'wahab':  
         break  
-    print(name)  
+    print(n)  
 
 
 
