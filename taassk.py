@@ -1,11 +1,11 @@
 #Sum of all number in the llist
 
 
-# numbers = [10, 20, 30, 40, 50]
-# s = 0
-# for number in numbers:
-#     s += number  
-# print(f"The sum of all elements in the list is:{s}")
+numbers = [10, 20, 30, 40, 50]
+s = 0
+for number in numbers:
+    s += number  
+print(f"The sum of all elements in the list is:{s}")
 
 
 #Chracter of string 
@@ -26,4 +26,5 @@ numbers = []
 for num in range(start, end):
     numbers.append(num) 
 print(f"The list of numbers between {start} and {end} is: {numbers}")
+
 
