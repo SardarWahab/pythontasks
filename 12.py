@@ -40,3 +40,4 @@ average_score = total_score / num_students
 
 # Print the average score
 print(f'\nThe average score of the students is {average_score:.2f}.')
+print
