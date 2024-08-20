@@ -1,7 +1,7 @@
 def grade_s(std_marks):
     total = 400
     obtain_m = sum(std_marks)
-    print(obtain_m)
+    print(f"The sum of total marks are:{obtain_m}")
     obtain_per = obtain_m/total*100
     print(f"The percentage of all marks are{obtain_per}")
     if obtain_per >= 90:
