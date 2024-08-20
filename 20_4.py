@@ -1,22 +1,25 @@
-def grade_s(num1,num2,num3,num4):
-    num = num1+num2+num3+num4
-    print(f"The sum of all marks are{num}")
-    if num >= 90:
+def grade_s(std_marks):
+    total = 400
+    obtain_m = sum(std_marks)
+    print(obtain_m)
+    obtain_per = obtain_m/total*100
+    print(f"The percentage of all marks are{obtain_per}")
+    if obtain_per >= 90:
         return "A+"
-    elif num >= 80:
+    elif obtain_per >= 80:
         return "A"
-    elif num >= 70:
+    elif obtain_per >= 70:
         return "B+"
-    elif num >= 60:
+    elif obtain_per >= 60:
         return "B"
-    elif num >= 50:
+    elif obtain_per >= 50:
         return "C"
     else:
         return "F"
     
 std1 = [20,50,30,60]
-a = grade_s(20,50,30,60)
-print(a)
+ 
+print(grade_s(std1))
     
     
 
