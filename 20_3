@@ -1,0 +1,8 @@
+def check_str(str):
+    a= len(str)
+    return  a
+    
+
+
+b= input("Enter a name")
+print(check_str(b))  
