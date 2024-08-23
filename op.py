@@ -11,3 +11,4 @@ class BS:
 
 rec = BS('Wahab','BSSE','Mandhole Poonch')
 print(rec.meth())
+
