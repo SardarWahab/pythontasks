@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.carousel-item{
+    width: 100%;
+    height: 80vh;
+}
+.ab{
+    font-family: "Dancing Script", cursive;
+}
+.card-body img{
+
+    min-width: 50%;
+    max-height: 200px;
+}
